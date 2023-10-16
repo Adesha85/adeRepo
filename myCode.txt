@@ -1,0 +1,51 @@
+
+// code for finding z
+var x = 3;
+var y = 4;
+var z = x+2*y;
+print(z);
+
+// code for finding x&y
+var x = 3;
+var y = 2;
+y = x;
+print (x);
+print (y);
+
+// code for printing an image, finding the size width and height, its pixels (r,b,g)
+var img = new SimpleImage("smallhands.png");
+print (img);
+print (img.getWidth());
+print (img.getHeight());
+print (img.getPixel(200,200));
+print (img.getRed(150,190));
+print (img.getGreen(250,100));
+print (img.getBlue(220,220));
+
+// code for using a function to find y
+function square(x){
+    return x+2*x;
+}
+
+var y = square(6);
+print (y);
+
+// code for using a function to add 3 numbers
+function square(x){
+    return x + x + x;
+}
+
+var y = square(7);
+print (y);
+
+
+
+// code for using a function to add 2 strings
+function add (1,2){
+    var s1 = 1;
+    var s2 = 2;
+    return 1 + 2 ;
+}
+var s3 = add ();
+print (s3);
+
